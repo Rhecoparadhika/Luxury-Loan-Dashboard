@@ -45,7 +45,7 @@ boxBorderStyle = {
 
 
 # Read Data
-lp_df = pd.read_csv("../Data/LuxuryLoanPortfolio.csv")
+lp_df = pd.read_csv("Data/LuxuryLoanPortfolio.csv")
 
 # Feature Selector
 lp_df = lp_df[["loan_id", "funded_amount", "funded_date", "duration years", "duration months", "10 yr treasury index date funded",
